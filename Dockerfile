@@ -1,2 +1,3 @@
 FROM prom/prometheus
-COPY prometheus.yml /etc/prometheus/prometheus.yml
+COPY entrypoint.sh /bin/
+ENTRYPOINT [ "/bin/entrypoint.sh" ]
