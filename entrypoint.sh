@@ -1,3 +1,3 @@
 #!/bin/sh
-printf "%s" "${PROMETHEUS_CONFIG_CONTENT}" > /etc/prometheus/prometheus.yml
-exec /bin/prometheus.orig $@
+printf "%s" "${ALERTMANAGER_CONFIG_CONTENT}" > /etc/alertmanager/alertmanager.yml
+exec /bin/alertmanager.orig $@

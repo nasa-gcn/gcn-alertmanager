@@ -1,5 +1,5 @@
-FROM prom/prometheus
+FROM prom/alertmanager
 USER root
-RUN mv /bin/prometheus /bin/prometheus.orig
-COPY entrypoint.sh /bin/prometheus
+RUN mv /bin/alertmanager /bin/alertmanager.orig
+COPY entrypoint.sh /bin/alertmanager
 USER nobody

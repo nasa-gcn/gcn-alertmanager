@@ -1,3 +1,3 @@
-# GCN Prometheus
+# GCN Alertmanager
 
-A very simple [Prometheus](https://prometheus.io) server that can be configured via environment variables.
+A very simple [Alertmanager](https://alertmanager.io) server that can be configured via environment variables.
